@@ -1,0 +1,10 @@
+bin/nsq_pubsub
+bin/nsq_stat
+bin/nsq_tail
+bin/nsq_to_file
+bin/nsq_to_http
+bin/nsq_to_nsq
+bin/nsqadmin
+bin/nsqd
+bin/nsqlookupd
+bin/to_nsq
