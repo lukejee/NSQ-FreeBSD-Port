@@ -12,8 +12,6 @@ COMMENT=	NSQ pre-build binaries for FreeBSD
 
 ONLY_FOR_ARCHS=	amd64
 NO_BUILD= yes
-NO_WRKSUBDIR= yes
-WRKSRC= ${WRKDIR}/${PORTNAME}-${PORTVERSION}.freebsd-amd64.go1.6
 
 do-install:
 	cd ${WRKSRC}/bin && ${FIND} * -type f -exec ${INSTALL_PROGRAM} "{}" "${STAGEDIR}${PREFIX}/bin/{}" \;
